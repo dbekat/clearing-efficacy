@@ -1,4 +1,4 @@
-# CALM Template Repository
+# Quantitative assessmnet of clearing efficacy
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/FrancisCrickInstitute/CALM_Template/HEAD?labpath=blob%2Fmain%2Fsegment_image.ipynb)
 [![Python 3.11](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/downloads/release/python-3115/)
@@ -7,56 +7,14 @@
 
 ## Overview
 
-The CALM Template is designed to provide a starting point for researchers to publish and share their image analysis code effectively. This might include, but is not limited to...
-* ImageJ/FIJI Macros
-* CellProfiler pipelines
-* ilastik projects
-* Jupyter notebooks
-* Python scripts
-* MATLAB scripts
+This code is designed as a semi-automated pipeline to assess key paramters of a 3D image, to compare different tissue clearing protocols and choose the best one for a case-by-case basis.
 
 ### Why?
 
-* It is often the case that publishing code is left until the last minute when a paper is being submitted, which results in published code that is in no way reusable.
-* If the code is not reusable and cannot be run by anyone other than you, then nobody is going to be able to reproduce your published results!
-* So, put as much time and effort into publishing your code as you do into writing the methods section of your paper.
+* There are countless clearing protocols, with the rate of new protocols being discovered rapidly increasing in the last few decades.
+* Each has their unique advanatges and disadvantages, and are more well suited to different samples and fluorophores
+* There is no 'superior' option, and so for a new sample type or fluorophore, it is best practise to determine what tissue clearing protocol can best provide your intended results. 
 
-### What Should You Include?
-
-When publishing image analysis protocols, we recommend following the guidance in the following article:
-
-> Schmied, C., Nelson, M.S., Avilov, S. et al. Community-developed checklists for publishing images and image analyses. _Nat Methods_ (2023). https://doi.org/10.1038/s41592-023-01987-9
-
-But at the absolute minimum, your repository should include the following:
-* All required code
-  * Ideally, this should be structured in a logical fashion using directories and sub-directories as necessary.
-* Instructions on how to run your code
-  * This is crucial - do not assume that anyone will be able to figure out what your code does! Provide basic, step-by-step instructions on how to run your code, including any prerequisites that need to be installed.
-* Test Data
-  * Your repository should contain some test data that anyone can run your code on to verify that it is performing as it should be. You should also provide the corresponding output data to validate the code.
-
-## Getting Started
-
-### Requirements
-
-In order to create your own repository from this template, you will need:
-* A GitHub account.
-* Basic knowledge of git operations.
-* Membership of the [Francis Crick Insitute organisation on Github](https://github.com/FrancisCrickInstitute).
-
-### How to Make Use of this Template
-
-Once all of the above requirements are met, you can create your own repository using this repo as a template. To do so...
-
-1. Click on `+` dropdown menu on the top-right of this screen and select `New repository`:
-
-![Screenshot](./resources/New_Repo.png)
-
-2. Then, select `FrancisCrickInstitute/CALM_Template` from the list of options that should appear when you click on the `Repository template` dropdown:
-
-![Screenshot](./resources/Select_Template_Screenshot.png)
-
-3. Complete the rest of the details and you should end up with a new repository that looks just like this one, which you can edit according to your needs.
 
 ## How To Run the Code in This Repo
 
@@ -105,4 +63,4 @@ The Jupyter Notebook should open in your browser - follow the step-by-step instr
 ### (Optional) Step 4
 #### Set up your repo to run on Binder
 
-[Binder](https://mybinder.org/) is a really nice way to allow people to run your Jupyter notebooks directly from GitHub - just [follow this handy guide from the Turing Institute](https://the-turing-way.netlify.app/communication/binder/zero-to-binder.html) to get your repo set up. To run the code in this template repo on Binder, click [here](https://mybinder.org/v2/gh/FrancisCrickInstitute/CALM_Template/HEAD?labpath=blob%2Fmain%2Fsegment_image.ipynb).
+[Binder](https://mybinder.org/) is a really nice way to allow people to run your Jupyter notebooks directly from GitHub - just [follow this handy guide from the Turing Institute](https://the-turing-way.netlify.app/communication/binder/zero-to-binder.html) to get your repo set up.
