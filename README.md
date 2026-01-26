@@ -34,8 +34,8 @@ We recommend using conda as it's relatively straightforward and makes the manage
 Once conda is installed, open a terminal (Mac) or command line (Windows) and run the following series of commands:
 
 ```
-conda create --name calm_template pip
-conda activate calm_template
+conda create --name clearing-efficacy pip python=3.11
+conda activate clearing-efficacy
 python -m pip install -r <path to this repo>/requirements.txt
 ```
 where you need to replace `<path to this repo>` with the location on your file system where you downloaded this repo. You will be presented with a list of packages to be downloaded and installed. The following prompt will appear:
@@ -54,7 +54,7 @@ You have successfully set up an environment!
 
 The following commands will launch a Jupyter notebook:
 ```
-conda activate calm_template
+conda activate clearing-efficacy
 jupyter notebook <path to this repo>/zebrafish_age_estimator.ipynb
 ```
 
