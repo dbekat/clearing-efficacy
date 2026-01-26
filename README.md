@@ -18,9 +18,6 @@ This code is designed as a semi-automated pipeline to assess key paramters of a 
 
 ## How To Run the Code in This Repo
 
-* This repository is intended only as a demo and to provide rough guidelines on how you should publish your own code.
-* The main functional element here is a single, relatively sumple Jupyter Notebook - if you are publishing a FIJI macro or a MATLAB script, then your repository will look a little different, but the basic principles outlined above remain the same.
-
 A step-by-step guide is presented below. **You only need to perform steps 1 and 2 once.** Every subsequent time you want to run the code, skip straight to step 3.
 
 ### Step 1
