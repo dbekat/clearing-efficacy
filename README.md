@@ -7,7 +7,7 @@
 
 ## Overview
 
-This code is designed as a semi-automated pipeline to assess key paramters of a 3D image, to compare different tissue clearing protocols and choose the best one for a case-by-case basis.
+This code is designed as a semi-automated pipeline to assess key paramters of a 3D image, to compare different tissue clearing protocols and choose the most suitable protocol on a case-by-case basis.
 
 ### Why?
 
