@@ -31,7 +31,7 @@ We recommend using conda as it's relatively straightforward and makes the manage
 Once conda is installed, open a terminal (Mac) or command line (Windows) and run the following series of commands:
 
 ```
-conda create --name clearing-efficacy pip python=3.11
+conda create --name clearing-efficacy pip python=3.13
 conda activate clearing-efficacy
 python -m pip install -r <path to this repo>/requirements.txt
 ```
