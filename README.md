@@ -1,18 +1,18 @@
-# Quantitative assessmnet of clearing efficacy
+# Quantitative assessment of clearing efficacy
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/FrancisCrickInstitute/CALM_Template/HEAD?labpath=blob%2Fmain%2Fsegment_image.ipynb)
-[![Python 3.11](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/downloads/release/python-3115/)
-![Commit activity](https://img.shields.io/github/commit-activity/y/FrancisCrickInstitute/CALM_Template?style=plastic)
-![GitHub](https://img.shields.io/github/license/FrancisCrickInstitute/CALM_Template?color=green&style=plastic)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dbekat/clearing-efficacy/main?urlpath=%2Fdoc%2Ftree%2Funified_analysis.ipynb)
+[![Python 3.13](https://img.shields.io/badge/python-3.13-blue.svg)](https://www.python.org/downloads/release/python-31311/)
+![Commit activity](https://img.shields.io/github/commit-activity/y/dbekat/clearing-efficacy?style=plastic)
+![GitHub](https://img.shields.io/github/license/dbekat/clearing-efficacy?color=green&style=plastic)
 
 ## Overview
 
-This code is designed as a semi-automated pipeline to assess key paramters of a 3D image, to compare different tissue clearing protocols and choose the most suitable protocol on a case-by-case basis.
+This code is designed as a semi-automated pipeline to assess key parameters of a 3D image, to compare different tissue clearing protocols and choose the most suitable protocol on a case-by-case basis.
 
 ### Why?
 
 * There are countless clearing protocols, with the rate of new protocols being discovered rapidly increasing in the last few decades.
-* Each has their unique advanatges and disadvantages, and are more well suited to different samples and fluorophores
+* Each has their unique advantages and disadvantages, and are more well suited to different samples and fluorophores
 * There is no 'superior' option, and so for a new sample type or fluorophore, it is best practise to determine what tissue clearing protocol can best provide your intended results. 
 
 
