@@ -2,8 +2,8 @@
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dbekat/clearing-efficacy/main?urlpath=%2Fdoc%2Ftree%2Funified_analysis.ipynb)
 [![Python 3.13](https://img.shields.io/badge/python-3.13-blue.svg)](https://www.python.org/downloads/release/python-31311/)
-![Commit activity](https://img.shields.io/github/commit-activity/y/FrancisCrickInstitute/CALM_Template?style=plastic)
-![GitHub](https://img.shields.io/github/license/FrancisCrickInstitute/CALM_Template?color=green&style=plastic)
+![Commit activity](https://img.shields.io/github/commit-activity/y/dbekat/clearing-efficacy?style=plastic)
+![GitHub](https://img.shields.io/github/license/dbekat/clearing-efficacy?color=green&style=plastic)
 
 ## Overview
 
