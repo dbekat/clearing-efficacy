@@ -1,0 +1,14 @@
+jupyter
+bioio
+bioio_bioformats
+bioio_ome_tiff
+numpy
+pandas
+scipy
+scikit-image
+cellpose
+matplotlib
+seaborn
+tifffile
+stardist
+tensorflow
