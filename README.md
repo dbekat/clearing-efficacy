@@ -52,7 +52,7 @@ You have successfully set up an environment!
 The following commands will launch a Jupyter notebook:
 ```
 conda activate clearing-efficacy
-jupyter notebook <path to this repo>/zebrafish_age_estimator.ipynb
+jupyter notebook <path to this repo>/unified_analysis.ipynb
 ```
 
 The Jupyter Notebook should open in your browser - follow the step-by-step instructions in the notebook to run the code. If you are not familiar with Jupyter Notebooks, you can find a detailed introduction [here](https://jupyter-notebook.readthedocs.io/en/latest/notebook.html#introduction).
