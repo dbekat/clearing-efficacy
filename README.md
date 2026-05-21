@@ -1,4 +1,4 @@
-# Quantitative assessment of clearing efficacy
+# SeeThru: Quantitative assessment of clearing efficacy
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dbekat/clearing-efficacy/main?urlpath=%2Fdoc%2Ftree%2Funified_analysis.ipynb)
 [![Python 3.13](https://img.shields.io/badge/python-3.13-blue.svg)](https://www.python.org/downloads/release/python-31311/)
@@ -7,7 +7,7 @@
 
 ## Overview
 
-This code is designed as a semi-automated pipeline to assess key parameters of a 3D image, to compare different tissue clearing protocols and choose the most suitable protocol on a case-by-case basis.
+SeeThru is designed as a semi-automated pipeline to assess key parameters of a 3D image, to compare different tissue clearing protocols and choose the most suitable protocol on a case-by-case basis.
 
 ### Why?
 
@@ -31,8 +31,8 @@ We recommend using conda as it's relatively straightforward and makes the manage
 Once conda is installed, open a terminal (Mac) or command line (Windows) and run the following series of commands:
 
 ```
-conda create --name clearing-efficacy pip python=3.13
-conda activate clearing-efficacy
+conda create --name SeeThru pip python=3.13
+conda activate SeeThru
 python -m pip install -r <path to this repo>/requirements.txt
 ```
 where you need to replace `<path to this repo>` with the location on your file system where you downloaded this repo. You will be presented with a list of packages to be downloaded and installed. The following prompt will appear:
@@ -51,7 +51,7 @@ You have successfully set up an environment!
 
 The following commands will launch a Jupyter notebook:
 ```
-conda activate clearing-efficacy
+conda activate SeeThru
 jupyter notebook <path to this repo>/unified_analysis.ipynb
 ```
 
